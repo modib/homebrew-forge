@@ -4,7 +4,7 @@ class WsCli < Formula
   desc "AI-native cross-project workspace manager — the Forge OS project hub"
   homepage "https://github.com/modib/ws-cli"
   url "https://github.com/modib/ws-cli/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "76afa3c27cc4560ad1951f272bca770512b9f56650bdfb29dddf7cc1e750f80c"
+  sha256 "e9c145c72c716b7325104fce24679c5902a26cfbe68969be569dcbc9226044af"
   license "MIT"
 
   depends_on "python@3.14"
