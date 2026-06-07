@@ -1,10 +1,10 @@
-class WsCli < Formula
+class ForgeCli < Formula
   include Language::Python::Virtualenv
 
   desc "AI-native cross-project workspace manager — the Forge OS project hub"
-  homepage "https://github.com/modib/ws-cli"
-  url "https://github.com/modib/ws-cli/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "cfbafc90851f7f5bbbeba11c2997280c1db5350ab65a84145d77f72fd58a42a8"
+  homepage "https://github.com/modib/forge-cli"
+  url "https://github.com/modib/forge-cli/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "19b5c14854600eb6930d2b777d709dd457f438d0b83caff0e2f3bfde87700467"
   license "MIT"
 
   depends_on "python@3.14"
@@ -15,6 +15,6 @@ class WsCli < Formula
   end
 
   test do
-    system "#{bin}/ws", "--version"
+    system "#{bin}/forge", "--version"
   end
 end
