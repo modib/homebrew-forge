@@ -3,8 +3,8 @@ class ForgeCli < Formula
 
   desc "AI-native cross-project workspace manager — the Forge OS project hub"
   homepage "https://github.com/modib/forge-cli"
-  url "https://github.com/modib/forge-cli/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "0bd8e19bf6110f75290564892496336e3722fc86d1828f551aecf840c36389e2"
+  url "https://github.com/modib/forge-cli/archive/refs/tags/v0.4.2.tar.gz"
+  sha256 "014676f9f8d1dd8d15b70bbe99f16056c304302caef1decd95f2adaa6c828440"
   license "MIT"
 
   depends_on "python@3.14"
